@@ -1,0 +1,95 @@
+<%extends file="web/base/base.html"%>
+
+<%* header *%>
+<%block name="head_css"%>
+<%asset_merge%>
+	<link rel="stylesheet" type="text/css" href="/static/web/common/css/image-rosi.css" des="/static/output/css/global_image-rosi.css"/>
+<%/asset_merge%>
+<%/block%>
+
+<%block name="layout"%>
+    <div id="overlay" class="over-lay"></div>
+		<div id="r-more" class="r-more">
+			<span class="close">x</span>
+			<div class="n-container">
+				<div class="l-container">
+					<span><%$body.popUp.firstTitle%></span><hr />
+					<p class="l-note"></p>
+					<a class="bb-img" href="<%$body.popUp.fisrt_redirect%>" style="width:321px;height:201px;">
+						<img data-src="<%$body.popUp.firstImg%>" onload="Gl.tool.resizeImage(this)"/>
+						<span class="img-txt"><%$body.popUp.fisrtDes%></span>
+					</a>
+				</div>
+				<div class="r-container">
+					<span><%$body.popUp.secondTitle%></span>
+					<hr />
+					<p class="r-note"></p>
+					<a class="first-img" href="<%$body.popUp.second_redirect%>" style="width:155px;height:95px;">
+						<img data-src="<%$body.popUp.smallImg01%>" onload="Gl.tool.resizeImage(this)"/>
+						<span class="img-txt"><%$body.popUp.smallImg01Des%></span>
+					</a>
+					<a class="last-img" href="<%$body.popUp.third_redirect%>" style="width:155px;height:95px;">
+						<img data-src="<%$body.popUp.smallImg02%>" onload="Gl.tool.resizeImage(this)"/>
+						<span class="img-txt"><%$body.popUp.smallImg02Des%></span>
+					</a>
+				</div>
+				<a class="go-home" href="<%$body.popUp.goHomeSrc%>"><%$body.popUp.goHome%></a>
+			</div>
+		</div>
+		<div id="rosiContainer" class="mod-rosi-container">
+			<div class="header">
+				<div class="title">
+					<a class="nomal-t nomal-album" href="<%$body.mainCon.homeText%>"><%$body.mainCon.home%></a> >
+					<a class="nomal-t nomal-home" href="<%$body.mainCon.albumText%>"><%$body.mainCon.album%></a> >
+					<a class="nomal-t album-name"></a>
+					<span>&nbsp;(<i class="current-num">0</i>/<i class="return_num">0</i>)</span>
+				</div>
+				<div class="share">
+					<a class="share-wrap download-btn"><span class="share-item btn-download" data-index="down"></span><span class="share-num">0</span></a>
+					<a class="share-wrap like-btn"><span class="share-item btn-like" data-index="heart"></span><span class="share-num">0</span></a>
+					<a class="share-wrap facebook-btn"><span class="share-item btn-facebook" data-index="share"></span><span class="share-num">0</span></a>
+				</div>
+			</div>
+			<div class="big-content">
+				<div class="exchange-el">
+					<div class="exchange-l"></div>
+					<div class="exchange-r"></div>
+					<div class="exchange-big-l"></div>
+					<div class="exchange-big-r"></div>
+				</div>
+				<div class="big-img">
+					<a>
+						<img src=""/>
+					</a>
+				</div>
+				<p class="description"></p>
+			</div>
+			<div class="small-content">
+				<div class="exchange-small-el">
+					<div class="exchange-s-l"></div>
+					<div class="exchange-s-r"></div>
+					<div class="exchange-b-l"></div>
+					<div class="exchange-b-r"></div>
+				</div>
+				<div class="small-container">
+					<ul></ul>
+				</div>
+			</div>
+		</div>
+<%/block%>
+
+<%block name="foot_js"%>
+<%asset_merge%>
+<script type="text/javascript" src="/static/web/base/js/widget/jquery.mousewheel.js" des="/static/output/js/global_image-rosi.js"></script>
+<script type="text/javascript" src="/static/web/common/js/image-rosi.js" des="/static/output/js/global_image-rosi.js"></script>
+<script type="text/javascript" src="/static/web/base/js/md5.js" des="/static/output/js/global_image-rosi.js"></script>
+<script type="text/javascript" src="/static/web/common/js/image/tool.js" des="/static/output/js/global_image-rosi.js"></script>
+<%/asset_merge%>
+<script>
+	conf.dir = "<%$head.dir%>";
+	conf.share = <%json_encode($body.share)%>;
+	conf.commonUrl = <%json_encode($body.commonUrl)%>;
+	conf.num = <%json_encode($body.mainCon)%>
+</script>
+<script>new rosiEl()</script>
+<%/block%>

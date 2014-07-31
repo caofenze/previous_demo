@@ -1,0 +1,334 @@
+body{
+	background: #262b33;
+	margin: 0;
+}
+.over-lay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	z-index: 10;
+	display: none;
+}
+.r-more{
+	width: 545px;
+	height: 285px;
+	background: white;
+	z-index: 11;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -142px -272px;
+	padding: 10px;
+	display: none;
+}
+.r-more .close{
+	background: #525861;
+	float: right;
+	padding: 3px 6px;
+	color: white;
+	cursor: pointer;
+}
+.r-more .close:hover{
+	background: #e11111;
+}
+.r-more .n-container{
+	padding: 4px 25px;
+	margin-top: 10px;
+}
+.r-more .l-container{
+	width: 321px;
+	height: 250px;
+	float: left;
+	color: #1483ff;
+	font-weight: 300;
+	font-size: 16px;
+}
+.r-more .r-container{
+	width: 155px;
+	height: 250px;
+	float: right;
+	color: #ff521c;
+	font-weight: 300;
+	font-size: 16px;
+}
+.r-more .l-note{
+	width: 200px;
+	height: 3px;
+	background: #1483ff;
+	margin-top: -12px;
+}
+.r-more .r-note{
+	width: 120px;
+	height: 3px;
+	background: #ff521c;
+	margin-top: -12px;
+}
+.r-more .last-img{
+	position: relative;
+	top: 20px;
+}
+.r-more img{
+	cursor: pointer;
+}
+.r-more .bb-img,.r-more .first-img{
+	position: relative;
+	top: 10px;
+}
+.r-more .img-txt{
+	width: 100%;
+	height: 30px;
+	background: #000;
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.3);
+	display: block;
+	color: white;
+	font-size: 16px;
+	line-height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.r-more .go-home{
+	color:#00b075;
+	font-size:16px;
+	position: relative;
+	float: right;
+	cursor: pointer;
+	display: inline-block;
+}
+.r-more .go-home:hover{
+	text-decoration: underline;
+}
+.mod-rosi-container .header{
+	width: 100%;
+	height: 50px;
+	background: #2c313b;
+	line-height: 50px;
+}
+.mod-rosi-container .title{
+	color: white;
+	float: left;
+	position: relative;
+	left: 30px;
+	color: #aaacb3;
+	width: 1000px;
+}
+.mod-rosi-container .nomal-t{
+	color: #aaacb3;
+}
+.mod-rosi-container .nomal-t:hover{
+	color: #00b075;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.mod-rosi-container .share{
+	float: right;
+	position: relative;
+	right: 30px;
+}
+.mod-rosi-container .big-content{
+	width: 100%;
+	padding: 16px 0;
+	text-align: center;
+}
+.mod-rosi-container .exchange-el{
+	margin: 0 auto;
+	position: relative;
+	visibility: hidden;
+}
+.mod-rosi-container .exchange-l{
+	float: left;
+	background: url(/static/web/common/img/rosi/big-exchange-nor.png) no-repeat;
+	width: 20px;
+	height: 35px;
+	position: relative;
+	top: 16px;
+	left: 22px;
+	cursor: pointer;
+	z-index: 2;
+}
+.mod-rosi-container .exchange-r{
+	float: right;
+	background: url(/static/web/common/img/rosi/big-exchange-01-nor.png) no-repeat;
+	width: 20px;
+	height: 35px;
+	position: relative;
+	top: 16px;
+	left: -22px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.mod-rosi-container .exchange-big-l{
+	float: left;
+	width: 50px;
+	height: 220px;
+	background: #3c4148;
+	cursor: pointer;
+	visibility: hidden;
+	position: relative;
+	top: -80px;
+	left: -10px;
+}
+.mod-rosi-container .exchange-big-r{
+	float: right;
+	width: 50px;
+	height: 220px;
+	background: #3c4148;
+	cursor: pointer;
+	visibility: hidden;
+	position: relative;
+	top: -80px;
+	left: 10px;
+}
+
+.mod-rosi-container .small-content{
+	background: #2e333d;
+	width: 100%;
+	padding-top: 15px;
+	position: absolute;
+	bottom: 0;	
+}
+.mod-rosi-container .exchange-small-el{
+	margin: 0 auto;
+	position: relative;
+	top: 3px;
+	visibility: hidden;
+}
+.mod-rosi-container .exchange-s-l{
+	float: left;
+	/*background: url(big-exchange-nor.png) no-repeat;*/
+	width: 25px;
+	height: 70px;
+	background: #3c4148;
+	cursor: pointer;
+	visibility: hidden;
+}
+.mod-rosi-container .exchange-s-r{
+	float: right;
+	/*background: url(big-exchange-01-nor.png) no-repeat;*/
+	width: 25px;
+	height: 70px;
+	background: #3c4148;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+.mod-rosi-container .exchange-b-l{
+	float: left;
+	background: url(/static/web/common/img/rosi/big-exchange-nor.png) no-repeat;
+	width: 25px;
+	height: 35px;
+	position: relative;
+	top: 18px;
+	left: -22px;
+	cursor: pointer;
+	display: inline-block;
+}
+.mod-rosi-container .exchange-b-r{
+	float: right;
+	background: url(/static/web/common/img/rosi/big-exchange-01-nor.png) no-repeat;
+	width: 25px;
+	height: 35px;
+	position: relative;
+	top: 18px;
+	left: 29px;
+	cursor: pointer;
+}
+.mod-rosi-container .small-container{
+	/*width: 1210px;*/
+	height: 89px;
+	/*background: #ccc;*/
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.mod-rosi-container .small-container ul{
+	position: absolute;
+	overflow: hidden;
+	width: 10000000000000px;
+	left:-35px;
+	margin-left: 37px;
+}
+
+.mod-rosi-container .small-item{
+	width: 70px;
+	height: 70px;
+	overflow: hidden;
+	display: inline-block;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.mod-rosi-container .item-h{
+	border: 2px solid green;
+}
+.mod-rosi-container .big-img{
+	margin: 0 auto;
+}
+.mod-rosi-container .big-img a{
+	cursor: pointer;
+}
+.mod-rosi-container .current-num{
+	color:#00b075;
+	font-family: Georgia;
+	font-size: 24px;
+}
+.mod-rosi-container .return_num{
+	font-family: Georgia;
+	position: relative;
+	top: 3px;
+	font-size: 16px;
+}
+.mod-rosi-container .nomal-home,.mod-rosi-container .nomal-album{
+	color: #00b075;
+}
+.mod-rosi-container .share-item{
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	position: relative;
+	top: -7px;
+	left: 6px;
+	line-height: 23px;
+	cursor: pointer;
+}
+.mod-rosi-container .share-num{
+	position: relative;
+	left: 14px;
+	color: #aaadb3;
+	top: -11px;
+}
+.mod-rosi-container .share-wrap{
+	border: 1px solid #474e59;
+	cursor: pointer;
+	border-radius: 3px;
+	width: 70px;
+	display: inline-block;
+	height: 28px;
+	position: relative;
+	top: 10px;
+}
+.mod-rosi-container .btn-download{
+	background: url(/static/web/common/img/rosi/down-nor.png) no-repeat;
+}
+.mod-rosi-container .btn-like{
+	background: url(/static/web/common/img/rosi/heart-nor.png) no-repeat;
+}
+.mod-rosi-container .btn-facebook{
+	background: url(/static/web/common/img/rosi/share-nor.png) no-repeat;
+}
+.mod-rosi-container .description{
+	color:#aaacb3;
+	margin-top:10px;
+	max-height: 30px;
+	overflow: hidden;
+	font-size: 12px;
+}
+
+.n-container .bb-img, .n-container .first-img, .n-container .last-img{position: relative;overflow: hidden;display: block;}
+.n-container .bb-img img, .n-container .first-img img, .n-container .last-img img{position: absolute;}
