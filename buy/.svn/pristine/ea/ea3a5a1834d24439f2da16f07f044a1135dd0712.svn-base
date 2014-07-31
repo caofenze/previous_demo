@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = false
+[remote "origin"]
+	url = http://gitlab.pro/common-ui/base-css.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "mini"]
+	remote = origin
+	merge = refs/heads/mini

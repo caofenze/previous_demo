@@ -1,0 +1,125 @@
+.mod-buy-hotsite{
+	width:100%;
+	display: inline-block;
+	margin-bottom: 20px;
+	border: 1px solid #e6e6e6;
+}
+.mod-buy-hotsite .nav{
+	width: 190px;
+	float: left;
+}
+.mod-buy-hotsite .hotsite-wrap{
+	position: relative;
+	float: right;
+	width: 770px
+}
+.flow-on .mod-buy-hotsite .hotsite-wrap{
+	width: 930px;
+}
+.mod-buy-hotsite .nav-items{
+	background:#f5f6f7;
+	border-bottom: 1px solid white;
+	padding: 9.5px 10px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.mod-buy-hotsite .nav-items:hover{
+	color: #1c81e5;
+	text-decoration: underline;
+}
+.mod-buy-hotsite .hotsite-container{
+	display: none;
+}
+.mod-buy-hotsite .bra-selected{
+	background: white;
+	border-left: 2px solid blue;
+	color: #1c81e5;
+}
+.mod-buy-hotsite .hotsite-staff{
+	width: 175px;
+	height: 65px;
+	display:inline-block;
+	margin: 15px 0 0 12px;
+	position: relative;
+}
+.flow-on .mod-buy-hotsite .hotsite-staff{
+	margin: 10px -3px -2px 9px;
+}
+.mod-buy-hotsite .hotsite-staff .s-img{
+	width:175px;
+	height:65px;
+	display:inline-block;
+}
+.mod-buy-hotsite .hotsite-small-item{
+	width: 170px;
+	display: inline-block;
+	padding: 4px 2px 2px 0;
+	margin: 6px 5px 2px 11px;
+	color: #989898;
+	position: relative;
+}
+.flow-on .mod-buy-hotsite .hotsite-small-item{
+	width: 163px;
+}
+.mod-buy-hotsite .hotsite-small-item .s-img{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+.mod-buy-hotsite .hotsite-s-text{
+	position: absolute;
+	margin: 2px 10px;
+}
+.mod-buy-hotsite .hotsite-small-item:hover{
+	background: #f5f6f7;
+	color: #1c81e5;
+}
+.da-thumbs li a {
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+.da-thumbs li a div{
+	width: 100%;
+	height: 65px;
+	position: absolute;
+	/*top: 0;*/
+	overflow:hidden;
+	color: white;
+	line-height: 65px;
+	text-align: center;
+	background: #000;
+	opacity:0.7;
+	filter:alpha(opacity=70); 
+}
+.da-thumbs li a div.da-animate {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+/* Initial state classes: */
+.da-slideFromTop {
+	left: 0px;
+	top: -100%;
+}
+.da-slideFromBottom {
+	left: 0px;
+	top: 100%;
+}
+.da-slideFromLeft {
+	top: 0px; 
+	left: -100%;
+}
+.da-slideFromRight {
+	top: 0px;
+	left: 100%;
+}
+/* Final state classes: */
+.da-slideTop {
+	top: 0px;
+}
+.da-slideLeft {
+	left: 0px;
+}

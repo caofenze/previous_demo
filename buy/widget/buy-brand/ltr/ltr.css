@@ -1,0 +1,168 @@
+.mod-buy-brand{
+	width:100%;
+	display: inline-block;
+	margin-top: 20px;
+	border: 1px solid #e6e6e6;
+}
+.mod-buy-brand .nav{
+	width: 190px;
+	float: left;
+}
+.mod-buy-brand .brand-container{
+	overflow: hidden;
+	display: none;
+}
+.mod-buy-brand .nav-items{
+	background:#f5f6f7;
+	border-bottom: 1px solid white;
+	padding: 18px 10px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.mod-buy-brand .nav-items:hover{
+	color: #1c81e5;
+	text-decoration: underline;
+}
+.mod-buy-brand .bra-selected{
+	background: white;
+	border-left: 2px solid blue;
+	color: #1c81e5;
+}
+.mod-buy-brand .brand-staff{
+	width: 175px;
+	height: 85px;
+	border: 1px solid #e6e6e6;
+	display: inline-block;
+	margin:15px -6px 0px 9px;
+	position: relative;
+}
+.mod-buy-brand .brand-staff img{
+	width: 175px;
+	height: 65px;
+}
+.mod-buy-brand .brand-name{
+	display: inline-block;
+	color: #606060;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.mod-buy-brand .prev-btn{
+	position: absolute;
+	background: url(../img/left.png);
+	width: 30px;
+	height: 52px;
+	z-index: 2;
+	top: 50%;
+	margin-top: -26px;
+	cursor: pointer;
+	display: none;
+}
+.mod-buy-brand .prev-btn-bak{
+	background: url(../img/left-h.png);
+	display: none;
+}
+.mod-buy-brand .prev-btn:hover{
+	background: url(../img/left-h.png);
+}
+.mod-buy-brand .next-btn{
+	position: absolute;
+	background: url(../img/right.png);
+	width: 30px;
+	height: 52px;
+	z-index: 2;
+	right: 0;
+	top: 50%;
+	margin-top: -26px;
+	cursor: pointer;
+	display: none;
+}
+.mod-buy-brand .next-btn-bak{
+	background: url(../img/right-h.png);
+	display: none;
+}
+.mod-buy-brand .next-btn:hover{
+	background: url(../img/right-h.png);
+}
+.mod-buy-brand .brand-wrap{
+	position: relative;
+	width: 770px;
+	float: right;
+}
+.flow-on .mod-buy-brand .brand-wrap{
+	width: 930px;
+}
+.mod-buy-brand .brand-items-wrap{
+	width: 770px;
+	display: inline-block;
+}
+.flow-on .mod-buy-brand .brand-items-wrap{
+	width: 930px;
+	float: left;
+}
+.mod-buy-brand .brand-items{
+	width: 999999px;
+	position: relative;
+	left: 0;
+}
+/*.mod-buy-brand .brand-bak{
+	width: 175px;
+	height: 65px;
+	background:rgba(0,0,0,.4);
+	position: absolute;
+	top: 0;
+	color: white;
+	line-height: 65px;
+	text-align: center;
+	display: none;
+}*/
+.da-thumbs01 li a {
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+.da-thumbs01 li a div{
+	width: 100%;
+	height: 65px;
+	position: absolute;
+	/*top: 0;*/
+	overflow:hidden;
+	color: white;
+	line-height: 65px;
+	text-align: center;
+	background: #000;
+	opacity:0.7;
+	filter:alpha(opacity=70); 
+}
+.da-thumbs01 li a div.da-animate {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+/* Initial state classes: */
+.da-slideFromTop {
+	left: 0px;
+	top: -100%;
+}
+.da-slideFromBottom {
+	left: 0px;
+	top: 100%;
+}
+.da-slideFromLeft {
+	top: 0px; 
+	left: -100%;
+}
+.da-slideFromRight {
+	top: 0px;
+	left: 100%;
+}
+/* Final state classes: */
+.da-slideTop {
+	top: 0px;
+}
+.da-slideLeft {
+	left: 0px;
+}

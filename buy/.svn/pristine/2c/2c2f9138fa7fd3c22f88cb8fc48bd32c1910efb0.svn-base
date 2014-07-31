@@ -1,0 +1,29 @@
+.mod-top-search {
+	height: 30px;
+	background: #f7f7f7;
+	padding: 10px;
+}
+.mod-top-search .top-del{
+	float: right;
+	font-size: 17px;
+}
+.mod-top-search .items{
+	color: #1d82e6;
+	text-decoration: underline;
+	margin : 10px;
+	cursor: pointer;
+	font-size: 13px;
+}
+.mod-top-search .submit{
+	background: #2389ed;
+	color: #fff;
+	font-size: 17px;
+	padding: 3px 15px;
+	border: 0;
+	margin-left: -5px;
+	cursor: pointer;
+}
+.mod-top-search .txt{
+	height: 24px;
+	border: 1px solid #d9d9d9;
+}

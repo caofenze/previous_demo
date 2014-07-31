@@ -1,0 +1,205 @@
+.mod-buy-collocation{
+	width:100%;
+	display: inline-block;
+	margin-top: 20px;
+	border: 1px solid #e6e6e6;
+	overflow: hidden;
+}
+.mod-buy-collocation .col-wrap-del{
+	width: 99999px;
+}
+.mod-buy-collocation .col-title{
+	display: inline-block;
+}
+.mod-buy-collocation .col-wrap{
+	position: relative;
+}
+.mod-buy-collocation .col-title .col-t{
+	color: #2389ed;
+	float: left;
+	font-size: 20px;
+	padding: 15px 20px;
+}
+.mod-buy-collocation .line{
+	display: inline-block;
+	border: 1px dotted #e6e6e6;
+	width: 1080px;
+	margin: -5px 22px 10px;
+}
+/*.mod-buy-collocation .col-wrap img{
+	width: 246px;
+	height: 285px;
+}*/
+.mod-buy-collocation .col-ev{
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 2px;
+	margin-right: 10px;
+}
+.mod-buy-collocation .col-wrap-con{
+	width: 1057px;
+	overflow: hidden;
+	height: 310px;
+	position: relative;
+	display: inline-block;
+	left: 36px;
+}
+.mod-buy-collocation .pre{
+	position: absolute;
+	background: url(../../buy-brand/img/left.png);
+	width: 30px;
+	height: 52px;
+	top: 50%;
+	margin-top: -26px;
+	cursor: pointer;
+}
+.mod-buy-collocation .pre-bak{
+	position: absolute;
+	background: url(../../buy-brand/img/left.png);
+	width: 30px;
+	height: 52px;
+	top: 50%;
+	margin-top: -26px;
+	cursor: default;
+	opacity: .3;
+	filter:alpha(opacity=30); 
+}
+
+.mod-buy-collocation .pre:hover{
+	background: url(../../buy-brand/img/left-h.png);
+}
+.mod-buy-collocation .next{
+	position: absolute;
+	background: url(../../buy-brand/img/right.png);
+	width: 30px;
+	height: 52px;
+	top: 50%;
+	margin-top: -26px;
+	cursor: pointer;
+	right: 0;
+}
+.mod-buy-collocation .next-bak{
+	position: absolute;
+	background: url(../../buy-brand/img/right.png);
+	width: 30px;
+	height: 52px;
+	top: 50%;
+	margin-top: -26px;
+	cursor: default;
+	right: 0;
+	opacity: .3;
+	filter:alpha(opacity=30); 
+}
+.mod-buy-collocation .next:hover{
+	background: url(../../buy-brand/img/right-h.png);
+}
+.mod-buy-collocation .col-detail{
+	width: 1030px;
+	display: none;
+	margin: 20px auto;
+	border: 2px solid #ccc;
+}
+.mod-buy-collocation .col-detail .col-del-items img{
+	width: 220px;
+	height: 220px;
+}
+.mod-buy-collocation .col-detail ul{
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+}
+.mod-buy-collocation .col-detail .col-del-items{
+	width: 220px;
+	height: 220px;
+	border: 1px solid #ccc;
+	margin: 10px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.mod-buy-collocation .col-detail .items-text p{
+	position: absolute;
+	color: #979797;
+	line-height: 30px;
+	font-size: 17px;
+	text-align: left;
+	padding: 0 10px;
+}
+.mod-buy-collocation .col-detail .col-del-items .info{
+	background: #000;
+	opacity: 0.7;
+	filter:alpha(opacity=70); 
+	width: 100%;
+	position: absolute;
+	bottom: -60px;
+	height: 60px;
+	text-align: left;
+	padding-left: 15px;
+}
+.mod-buy-collocation .col-detail .col-del-items .info .name,.mod-buy-collocation .col-detail .col-del-items .info .provider{
+	font-size: 16px;
+	color: white;
+}
+
+.mod-buy-collocation .col-detail .col-del-items .info .price{
+	font-size: 18px;
+	color: #ffba00;
+}
+.mod-buy-collocation .triangle-note{
+	position: absolute; 
+	height: 35px; 
+	width: 35px; 
+	overflow: hidden; 
+	margin-left: 150px;
+}
+.mod-buy-collocation .triangle-note .del-message{
+	width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-width: 1px\0;
+    border-width: 2px 2px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+    margin: 10px 0 0 8px;
+    background: white;
+}
+.mod-buy-collocation .boxshadow{
+	box-shadow:5px 5px 10px #888888;
+}
+/* container */
+#container{
+	position: relative;
+	width: 1047px;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 330px;
+}
+#container li{
+	position:relative;
+	left:0;
+	top:0;
+	z-index:0;
+}
+.templates{
+	width: 99999px;
+	position: relative;
+}
+.templates li{
+	float:left;
+	height:290px;
+	width:240px;
+	margin: 20px 10px;
+}
+.templates a{
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+}
+.templates img{
+	width: 230px;
+	border: 1px solid #ccc;
+	padding: 4px;
+}

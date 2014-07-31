@@ -1,0 +1,17 @@
+_*
+node_modules
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db 
+Desktop.ini
+.*
+!.gitignore
+*~
+.directory
+.*.sw[a-z]
+*.un~
+Session.vim
+.svn/
+/*.sublime-project

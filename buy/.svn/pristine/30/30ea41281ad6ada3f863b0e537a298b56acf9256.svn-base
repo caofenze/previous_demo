@@ -1,0 +1,4 @@
+rewrite ^\/resource(\/.*)$ test/buy/resource.php
+rewrite ^\/buy\/?(.+)?$ test/buy/test.php
+rewrite ^\/[a-z]{2}\/?(\?.+)?$ test/buy/test.php
+rewrite ^\/[a-z]{2}\/[^?]+(\?.+)?$ test/buy/test.php

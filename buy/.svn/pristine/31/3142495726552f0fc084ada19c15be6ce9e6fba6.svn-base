@@ -1,0 +1,145 @@
+.mod-sort-shop{
+	width: 800px;
+	border: 1px solid #eeeff0;
+	display: inline-block;
+	box-sizing:border-box;
+}
+.mod-sort-shop .category{
+	width: 100%;
+	height: 42px;
+	background: #f5f6f7;
+	line-height: 40px;
+	text-align: center;
+	display: none;
+	overflow: hidden;
+}
+.mod-sort-shop .under-line{
+	text-decoration: underline;
+}
+.mod-sort-shop .category li{
+	float: left;
+	cursor: pointer;
+}
+.mod-sort-shop .detail{
+	width: 100%;
+}
+.mod-sort-shop .sort-detail{
+	width: 100%;
+	height: 100%;
+	display: none;
+	overflow: hidden;
+	float: left;
+}
+/*.mod-sort-shop .selected{
+	background: white;
+}*/
+.mod-sort-shop .category .go{
+	background-color: #CCC;
+	height: 3px;
+	overflow: hidden;
+	width: 100%;
+	display: block;
+}
+.mod-sort-shop .category .go .activego {
+    background-color: #d3222a;
+    float: right;
+    height: 5px;
+    width: 0
+}
+.mod-sort-shop .category .previous .go{
+	background: #333;
+}
+.mod-sort-shop .category .active{
+	background: white;
+}
+.mod-sort-shop .category .active .go .activego {
+    float: left
+}
+.mod-sort-shop .category .selected .go {
+    background-color: #d3222a
+}
+.mod-sort-shop .tpl-01 .item{
+	width: 20%;
+	float: left;
+	overflow: hidden;
+	height: 90px;
+}
+.mod-sort-shop .tpl-01 .item .box,.mod-sort-shop .tpl-02 .item .box{
+	overflow: hidden;
+	display: table-cell;
+	vertical-align: middle;
+	padding:2px;
+	height: 82px;
+}
+.mod-sort-shop .tpl-01 .item .info,.mod-sort-shop .tpl-02 .item .info{
+	overflow: hidden;
+	width: 50%;
+	font-size: 12px;
+	max-height: 90px;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+.mod-sort-shop .tpl-01 .item .img,.mod-sort-shop .tpl-02 .item .img{
+	float: right;
+	width: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.mod-sort-shop .tpl-01 .item .info .name,.mod-sort-shop .tpl-02 .item .info .name{
+	max-height: 34px;
+	line-height: 1.4;
+	overflow: hidden;
+	color: #333;
+}
+.mod-sort-shop .tpl-02 .big-detail{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.mod-sort-shop .tpl-01 .item .info .price,.mod-sort-shop .tpl-02 .item .info .price{
+	color: #fc2b3a;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.mod-sort-shop .tpl-01 .item .info .supplier,.mod-sort-shop .tpl-02 .item .info .supplier{
+	color: #454545;
+	font-size: 12px;
+	margin-top: 2px;
+}
+.mod-sort-shop .tpl-01 .item .image,.mod-sort-shop .tpl-02 .item .image{
+	/*width: 50%;*/
+	max-height: 82px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.mod-sort-shop .tpl-02 .item{
+	width: 20%;
+	height: 90px;
+	float: left;
+	overflow: hidden;
+}
+.mod-sort-shop .tpl-02 .big-banner{
+	width: 60%;
+	height: 90px;
+	float: left;
+	overflow: hidden;
+}
+.mod-sort-shop .tpl-03 .item{
+	width: 20%;
+	height: 180px;
+	float: left;
+	overflow: hidden;
+	
+}
+.mod-sort-shop .tpl-04 .item{
+	width: 35%;
+	height: 90px;
+	float: left;
+	overflow: hidden;
+}
+.mod-sort-shop .tpl-04 .big-banner{
+	width: 30%;
+	height: 180px;
+	float: right;
+}

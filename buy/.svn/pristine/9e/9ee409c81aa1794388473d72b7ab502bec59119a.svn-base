@@ -1,0 +1,152 @@
+/* 消息盒子的寄生于account，修改样式时麻烦留意一下 */
+.account_wrap {
+    float: left;
+    position: relative;
+    max-width: 170px;
+}
+.account_wrap:hover .account_trig {
+    background-color: #0164C8;
+    background-color: rgba(0, 99, 199, 0.97);
+}
+.account_trig {
+    padding: 0 12px;
+    height: 50px;
+    min-width: 14px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    display: table-cell;
+    *display: block;
+}
+.account_title {
+    width: auto;
+    max-width: 150px;
+    line-height: 50px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+}
+.account_login-tip {
+    cursor: pointer;
+}
+.login-tip_con {
+    padding-right: 28px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #587dc7;
+    background: url(../img/btn-fb-logo_rtl.png?__sprite) no-repeat right top;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.account-loginfo_wrap {
+    width: 230px;
+    word-wrap: break-word;
+    overflow: hidden;
+    padding: 9px 20px 20px;
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: #0164C8;
+    background-color: rgba(0, 99, 199, 0.97);
+}
+.account-loginfo_wrap img {
+    width: 70px;
+    height: 70px;
+    margin-left: 12px;
+    margin-right: 2px;
+    margin-top: 4px;
+    float: right;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -o-border-radius: 35px;
+    -ms-border-radius: 35px;
+    box-shadow: -2px 0 3px #fff, 0 -2px 3px #fff, 0 2px 3px #fff, 2px 0 3px #fff;
+    -webkit-box-shadow: -2px 0 3px #fff, 0 -2px 3px #fff, 0 2px 3px #fff, 2px 0 3px #fff;
+    -moz-box-shadow: -2px 0 3px #fff, 0 -2px 3px #fff, 0 2px 3px #fff, 2px 0 3px #fff;
+    -o-box-shadow: -2px 0 3px #fff, 0 -2px 3px #fff, 0 2px 3px #fff, 2px 0 3px #fff;
+    -ms-box-shadow: -2px 0 3px #fff, 0 -2px 3px #fff, 0 2px 3px #fff, 2px 0 3px #fff;
+}
+.account_logout_content {
+    float: right;
+    width: 140px;
+}
+.account_logout_name {
+    color: #ffffff;
+    line-height: 16px;
+    font-size: 12px;
+    margin-bottom: 4px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.account_logout_email {
+    color: #9CC3E9;
+    color: rgba(255,255,255,0.6);
+    line-height: 16px;
+    font-size: 12px;
+    margin-bottom: 8px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.account_logout_btn {
+    white-space: nowrap;
+    display: inline-block;
+    width: 94px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    background-color: #1C81E5;
+    color: #FFF;
+    font-size: 12px;
+    overflow: hidden;
+}
+.account-login_suc .account_trig img {
+    width: 26px;
+    height: 26px;
+    cursor: default;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -o-border-radius: 13px;
+    -ms-border-radius: 13px;
+    box-shadow: -2px 0 3px #ffffff, 0 -2px 3px #ffffff, 0 2px 3px #ffffff, 2px 0 3px #ffffff;
+    -webkit-box-shadow: -2px 0 3px #ffffff, 0 -2px 3px #ffffff, 0 2px 3px #ffffff, 2px 0 3px #ffffff;
+    -moz-box-shadow: -2px 0 3px #ffffff, 0 -2px 3px #ffffff, 0 2px 3px #ffffff, 2px 0 3px #ffffff;
+    -o-box-shadow: -2px 0 3px #ffffff, 0 -2px 3px #ffffff, 0 2px 3px #ffffff, 2px 0 3px #ffffff;
+    -ms-box-shadow: -2px 0 3px #ffffff, 0 -2px 3px #ffffff, 0 2px 3px #ffffff, 2px 0 3px #ffffff;
+}
+.account-dropdown_wrap {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: none;
+}
+
+body .account_wrap {
+    visibility: visible;
+    visibility: visible !important;
+}
+
+/*has skin*/
+.skin-on .account_wrap:hover .account_trig,
+.skin-on .wrap-message-content,
+.skin-on .account-loginfo_wrap {
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.skin-on .wrap-message-content li:hover {
+    background-color: #0A0A0A;
+    background-color: rgba(0,0,0,0.6);
+}
+.skin-on .wrap-message-content li {
+    border-bottom-color: #717171;
+    border-bottom-color: rgba(255,255,255,0.3);
+}
+.skin-on .account_logout_btn {
+    background-color: #626262;
+}
